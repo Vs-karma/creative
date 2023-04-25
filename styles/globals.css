@@ -105,3 +105,126 @@ a {
     color-scheme: dark;
   }
 }
+.navbar{
+  height: 90px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  font-weight:bold;
+}
+.navOptions{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+}
+.navOptionLink{
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(196, 193, 193);
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px #888888;
+}
+.navOptionLink:hover{
+  background-color: lavender;
+  border: none;
+  color: grey;
+  cursor: pointer;
+}
+.navOptionLink a:hover{
+  color: gray;
+}
+.newItem{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  overflow: auto;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 20px;
+  height: 100%;
+
+
+}
+.itemLeft{
+  width: 100%;
+}
+.itemSource{
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  background-color: blue;
+  position: relative;
+  top: 30px;
+  left: 5px;
+  width: fit-content;
+  color: white;
+  font-weight: bold;
+}
+.Image{
+  height: fit-content;
+  width: 100%;
+  border-radius: 20px;
+}
+.itemBody{
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  width: 1080px;
+  height: auto;
+  align-items:center ;
+}
+.row_{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.col_{
+  width: calc(100%/2 - 20px);
+  margin: 10px;
+}
+.itemRight{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.itemHeading{
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.itemDisc{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button{
+  color: white;
+  background-color: rgb(8, 177, 228);
+  width: fit-content;
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  box-shadow: 1px 1px 5px gray;
+}
+.ldBtn{
+  width: 1080px;
+  padding: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.bttn{
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: white;
+}
