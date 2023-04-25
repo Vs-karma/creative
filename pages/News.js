@@ -6,7 +6,7 @@ function News(props) {
     const [page, setPage] = useState(1);
     const [totalResults, setTotalResults] = useState(0);
     const updateNow = async () => {
-        let url = `https://newsapi.org/v2/top-headlines?country=in&country=general&apiKey=7e9e1305ea184d998fdf3e2014c7910a&page=${page}&pagesize=10`;
+        let url = `https://newsapi.org/v2/top-headlines?country=in&country=general&apiKey=1629d10c78f94fc79c7dce7d21d50d7d&page=${page}&pagesize=10`;
         // let data = await fetch(url)
         const data = await (await fetch(url)).json();
         setArticles(data.articles);
@@ -31,7 +31,7 @@ function News(props) {
     
 
     return (
-        <div>
+        <div className='body'>
             <div className="container_">
                 <div className="row_">
                     {articles.map((element) => {
